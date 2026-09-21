@@ -70,7 +70,7 @@
     <main>
       <header>
         <h1>Datenschutzerklärung – Tracklio – Time Tracker</h1>
-        <p>Stand: 2. August 2026</p>
+        <p>Stand: 21. September 2026</p>
         <p>
           Der Schutz Ihrer persönlichen Daten ist uns sehr wichtig. In dieser Datenschutzerklärung
           informieren wir Sie darüber, welche Daten bei der Nutzung der App „Tracklio – Time Tracker“
@@ -102,9 +102,10 @@
           anzugeben.
         </p>
         <p>
-          Alle in der App erfassten Inhalte (z.&nbsp;B. Arbeitszeiten oder Notizen) werden
-          ausschließlich lokal auf dem Gerät der Nutzerin bzw. des Nutzers gespeichert. Es findet
-          keine Übertragung an externe Server statt.
+          Arbeitszeiten, Abwesenheitszeiträume, Notizen und Exportdateien werden lokal auf dem
+          Gerät gespeichert und nicht an Firebase übertragen. Nur wenn die Nutzerin oder der Nutzer
+          ausdrücklich einwilligt, verarbeitet die App die nachfolgend beschriebenen Analyse- oder
+          Diagnosedaten über Firebase.
         </p>
         <p>
           Beim Besuch der Websites verarbeitet der Hosting-Anbieter GitHub Pages technisch
@@ -125,10 +126,12 @@
           Interesse an sicherem und stabilem Betrieb der Website).
         </p>
         <p>
-          Sofern zukünftig zusätzliche personenbezogene Daten verarbeitet werden, erfolgt dies je
-          nach Zweck auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung), Art. 6
-          Abs. 1 lit. f DSGVO (berechtigtes Interesse) oder einer Einwilligung nach Art. 6 Abs. 1
-          lit. a DSGVO.
+          Die optionale Verarbeitung von Analyse- und Diagnosedaten erfolgt auf Grundlage Ihrer
+          Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO. Soweit die übermittelte Kategorie einer
+          Abwesenheit einen Gesundheitsbezug erkennen lässt, stützt sich die Verarbeitung zusätzlich
+          auf Ihre ausdrückliche Einwilligung nach Art. 9 Abs. 2 lit. a DSGVO. Sie können Ihre
+          Einwilligung jederzeit mit Wirkung für die Zukunft in der App unter „Einstellungen“ →
+          „Diagnose &amp; Verbesserung“ widerrufen.
         </p>
       </section>
 
@@ -139,9 +142,9 @@
         <ul>
           <li>erstellt keine Nutzerkonten</li>
           <li>verlangt keine Registrierung</li>
-          <li>erhebt keine Namen, E-Mail-Adressen oder IDs</li>
-          <li>nutzt keine Tracking- oder Analyse-Tools</li>
-          <li>speichert keine Daten in einer Cloud</li>
+          <li>erhebt keine Namen oder E-Mail-Adressen</li>
+          <li>speichert Arbeitszeiten, Abwesenheitszeiträume und Notizen nicht in einer Cloud</li>
+          <li>nutzt optionale Analyse- und Diagnosedienste nur nach Einwilligung</li>
         </ul>
 
         <h3>b) Lokale App-Daten</h3>
@@ -153,7 +156,32 @@
           <li>werden nicht ausgewertet oder weitergegeben</li>
         </ul>
 
-        <h3>c) Zugriffsdaten beim Website-Besuch</h3>
+        <h3>c) Optionale Analyse- und Diagnosedaten</h3>
+        <p>
+          Tracklio verwendet Google Firebase Analytics und Firebase Crashlytics. Beide Funktionen
+          sind standardmäßig deaktiviert und können im Onboarding oder später getrennt voneinander
+          aktiviert und deaktiviert werden.
+        </p>
+        <p><strong>Firebase Analytics</strong> verarbeitet bei Einwilligung insbesondere:</p>
+        <ul>
+          <li>eine Firebase-Installationskennung sowie technische App- und Geräteinformationen</li>
+          <li>Ereignisse zur Nutzung von Onboarding, Zeiterfassung, manuellen Einträgen und Exporten</li>
+          <li>das Erstellen einer Abwesenheit und deren Kategorie, einschließlich „krank“</li>
+          <li>keine konkreten Arbeitszeiten, Abwesenheitszeiträume, Notizen oder Exportinhalte</li>
+        </ul>
+        <p><strong>Firebase Crashlytics</strong> verarbeitet bei Einwilligung insbesondere:</p>
+        <ul>
+          <li>Absturzberichte, Stack Traces und von der App erfasste nicht schwerwiegende Fehler</li>
+          <li>App-Version, Betriebssystem, Gerätemodell und technische Zustandsinformationen</li>
+          <li>Crashlytics- und Firebase-Installationskennungen sowie den Fehlerkontext</li>
+        </ul>
+        <p>
+          Zwecke der Verarbeitung sind die statistische Auswertung der App-Nutzung, die Verbesserung
+          von Funktionen sowie die Erkennung und Behebung technischer Fehler. Eine Nutzung für
+          personalisierte Werbung findet durch Tracklio nicht statt.
+        </p>
+
+        <h3>d) Zugriffsdaten beim Website-Besuch</h3>
         <p>
           Beim Aufruf der Websites kann GitHub Pages insbesondere die IP-Adresse, Datum und Uhrzeit
           des Zugriffs, aufgerufene Seiten sowie technische Angaben zu Browser und Endgerät
@@ -177,10 +205,20 @@
       <section>
         <h2>6. Weitergabe von Daten an Dritte</h2>
         <p>
-          Die lokal gespeicherten App-Daten werden nicht an den Betreiber oder an Dritte übertragen.
+          Lokal gespeicherte Arbeitszeiten, Abwesenheitszeiträume, Notizen und Exportinhalte werden
+          nicht an den Betreiber oder an Dritte übertragen. Bei erteilter Einwilligung werden die in
+          Abschnitt 4 c beschriebenen Analyse- oder Diagnosedaten an Google Firebase übermittelt.
+          Diensteanbieter ist Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
+          Eine Verarbeitung durch Google LLC und weitere Unterauftragnehmer in den USA oder anderen
+          Drittländern ist möglich. Google stützt solche Übermittlungen unter anderem auf
+          Angemessenheitsbeschlüsse und Standardvertragsklauseln. Weitere Informationen finden Sie in
+          den <a href="https://firebase.google.com/support/privacy">Datenschutz- und
+          Sicherheitsinformationen zu Firebase</a>.
+        </p>
+        <p>
           Für die Bereitstellung der Websites verarbeitet GitHub als Hosting-Anbieter technische
-          Zugriffsdaten. Darüber hinaus werden auf den Websites keine externen Analyse- oder
-          Werbedienste eingebunden.
+          Zugriffsdaten. Auf den Websites selbst werden keine externen Analyse- oder Werbedienste
+          eingebunden.
         </p>
       </section>
 
@@ -203,19 +241,23 @@
       <section>
         <h2>8. Speicherdauer</h2>
         <p>
-          Lokale App-Daten verbleiben auf dem Endgerät, bis sie von der Nutzerin / dem Nutzer
-          gelöscht werden. Server-Logfiles der Webseite werden vom Hosting-Anbieter für einen
-          begrenzten Zeitraum gemäß dessen Richtlinien gespeichert und anschließend gelöscht. Eine
-          feste konkrete Speicherdauer wird von GitHub Pages auf den relevanten Informationsseiten
-          nicht ausdrücklich benannt.
+          Lokale App-Daten verbleiben auf dem Endgerät, bis sie von der Nutzerin oder dem Nutzer
+          gelöscht werden. Für Firebase Analytics gelten die im Firebase-/Google-Analytics-Projekt
+          konfigurierten Aufbewahrungsfristen. Firebase Crashlytics bewahrt Absturzberichte und
+          zugehörige Kennungen nach Angaben von Google grundsätzlich 90 Tage auf, bevor deren
+          Entfernung aus aktiven Systemen und Sicherungen beginnt. Der Widerruf einer Einwilligung
+          beendet die zukünftige Übermittlung; bereits rechtmäßig verarbeitete Daten bleiben hiervon
+          unberührt. Server-Logfiles der Website werden von GitHub nach dessen Richtlinien gespeichert.
         </p>
       </section>
 
       <section>
         <h2>9. Datensicherheit</h2>
         <p>
-          Die von der App erfassten Inhalte werden ausschließlich lokal gespeichert. Für ihre
-          Sicherheit werden die Schutzmechanismen des Betriebssystems iOS genutzt. Wir empfehlen:
+          Arbeitszeiten, Abwesenheitszeiträume, Notizen und Exportinhalte werden lokal gespeichert.
+          Analyse- und Diagnosedaten werden bei Einwilligung verschlüsselt per HTTPS an Firebase
+          übertragen. Für lokale Daten werden die Schutzmechanismen des Betriebssystems iOS genutzt.
+          Wir empfehlen:
         </p>
         <ul>
           <li>die Nutzung einer Gerätesperre</li>
@@ -226,8 +268,8 @@
       <section>
         <h2>10. Ihre Rechte nach DSGVO</h2>
         <p>
-          Soweit personenbezogene Daten im Zusammenhang mit den Websites verarbeitet werden, stehen
-          Ihnen nach Maßgabe der gesetzlichen Voraussetzungen folgende Rechte zu:
+          Soweit personenbezogene Daten im Zusammenhang mit der App oder den Websites verarbeitet
+          werden, stehen Ihnen nach Maßgabe der gesetzlichen Voraussetzungen folgende Rechte zu:
         </p>
         <ul>
           <li>Auskunft (Art. 15 DSGVO)</li>
@@ -270,7 +312,7 @@
 
       <header>
         <h1>Privacy Policy – Tracklio – Time Tracker</h1>
-        <p>Last updated: August 2, 2026</p>
+        <p>Last updated: September 21, 2026</p>
         <p>
           Protecting your personal data is very important to us. This privacy policy explains
           which data is processed when using the “Tracklio – Time Tracker” app and when visiting
@@ -295,8 +337,9 @@
         <h2>2. General information on data processing</h2>
         <p>Tracklio – Time Tracker can generally be used without providing personal data.</p>
         <p>
-          All content captured in the app (e.g., working hours or notes) is stored exclusively on
-          the user’s device. No data is transmitted to external servers.
+          Working hours, absence periods, notes, and export files are stored locally on the device
+          and are not sent to Firebase. Only after the user explicitly consents does the app process
+          the analytics or diagnostic data described below through Firebase.
         </p>
         <p>
           When the websites are visited, the GitHub Pages hosting provider processes technically
@@ -316,9 +359,11 @@
           operation).
         </p>
         <p>
-          If additional personal data is processed in the future, this will be based on Art. 6(1)(b)
-          GDPR (contract performance), Art. 6(1)(f) GDPR (legitimate interest), or consent under
-          Art. 6(1)(a) GDPR, depending on the purpose.
+          Optional analytics and diagnostics processing is based on consent under Art. 6(1)(a)
+          GDPR. Where a transmitted absence category may reveal health-related information,
+          processing is additionally based on explicit consent under Art. 9(2)(a) GDPR. Consent can
+          be withdrawn at any time with future effect under “Settings” → “Diagnostics &amp;
+          Improvement” in the app.
         </p>
       </section>
 
@@ -329,9 +374,9 @@
         <ul>
           <li>does not create user accounts</li>
           <li>does not require registration</li>
-          <li>does not collect names, email addresses, or IDs</li>
-          <li>does not use tracking or analytics tools</li>
-          <li>does not store data in the cloud</li>
+          <li>does not collect names or email addresses</li>
+          <li>does not store working hours, absence periods, or notes in the cloud</li>
+          <li>uses optional analytics and diagnostics services only after consent</li>
         </ul>
 
         <h3>b) Local app data</h3>
@@ -343,7 +388,30 @@
           <li>is not analyzed or shared</li>
         </ul>
 
-        <h3>c) Website access data</h3>
+        <h3>c) Optional analytics and diagnostic data</h3>
+        <p>
+          Tracklio uses Google Firebase Analytics and Firebase Crashlytics. Both functions are
+          disabled by default and can be enabled or disabled separately during onboarding or later.
+        </p>
+        <p><strong>Firebase Analytics</strong> processes, after consent:</p>
+        <ul>
+          <li>a Firebase installation identifier and technical app and device information</li>
+          <li>events about onboarding, time tracking, manual entries, and exports</li>
+          <li>creation of an absence and its category, including “sick”</li>
+          <li>no actual working times, absence periods, notes, or export contents</li>
+        </ul>
+        <p><strong>Firebase Crashlytics</strong> processes, after consent:</p>
+        <ul>
+          <li>crash reports, stack traces, and non-fatal errors recorded by the app</li>
+          <li>app version, operating system, device model, and technical state information</li>
+          <li>Crashlytics and Firebase installation identifiers and the error context</li>
+        </ul>
+        <p>
+          The purposes are statistical evaluation of app usage, feature improvement, and detection
+          and resolution of technical errors. Tracklio does not use this data for personalized ads.
+        </p>
+
+        <h3>d) Website access data</h3>
         <p>
           When the websites are accessed, GitHub Pages may process the IP address, date and time of
           access, pages viewed, and technical information about the browser and device. This data is
@@ -366,9 +434,18 @@
       <section>
         <h2>6. Data sharing with third parties</h2>
         <p>
-          Locally stored app data is not transmitted to the operator or to third parties. GitHub,
-          as the hosting provider, processes technical access data to provide the websites. No
-          additional external analytics or advertising services are integrated into the websites.
+          Locally stored working hours, absence periods, notes, and export contents are not sent to
+          the operator or third parties. If consent is granted, the analytics or diagnostic data
+          described in section 4(c) is sent to Google Firebase. The service provider is Google
+          Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. Processing by Google LLC
+          and other subprocessors in the United States or other third countries may occur. Google
+          relies on safeguards including adequacy decisions and standard contractual clauses for
+          such transfers. For details, see Firebase’s
+          <a href="https://firebase.google.com/support/privacy">privacy and security information</a>.
+        </p>
+        <p>
+          GitHub processes technical access data as the website hosting provider. The websites
+          themselves do not integrate external analytics or advertising services.
         </p>
       </section>
 
@@ -391,18 +468,21 @@
       <section>
         <h2>8. Data retention</h2>
         <p>
-          Local app data remains on the device until deleted by the user. Website server logs are
-          stored by the hosting provider for a limited period according to its policies and deleted
-          thereafter. A fixed concrete retention period is not explicitly stated by GitHub Pages on
-          the relevant information pages.
+          Local app data remains on the device until deleted by the user. Firebase Analytics data is
+          retained according to the periods configured in the Firebase/Google Analytics project.
+          According to Google, Firebase Crashlytics generally retains crash reports and associated
+          identifiers for 90 days before removal from live and backup systems begins. Withdrawing
+          consent stops future transmission and does not affect prior lawful processing. Website
+          server logs are retained by GitHub according to its policies.
         </p>
       </section>
 
       <section>
         <h2>9. Data security</h2>
         <p>
-          Content recorded in the app is stored exclusively on the device. The security mechanisms
-          of the iOS operating system are used to protect it. We recommend:
+          Working hours, absence periods, notes, and export contents are stored locally. If consent
+          is granted, analytics and diagnostic data is transmitted to Firebase over encrypted HTTPS.
+          The security mechanisms of iOS are used to protect local data. We recommend:
         </p>
         <ul>
           <li>using a device lock</li>
@@ -413,8 +493,8 @@
       <section>
         <h2>10. Your GDPR rights</h2>
         <p>
-          To the extent that personal data is processed in connection with the websites, you have
-          the following rights subject to the applicable legal requirements:
+          To the extent that personal data is processed in connection with the app or the websites,
+          you have the following rights subject to the applicable legal requirements:
         </p>
         <ul>
           <li>Access (Art. 15 GDPR)</li>
